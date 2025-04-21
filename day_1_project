@@ -1,1 +1,9 @@
-
+print(len("hello yuh" + input("what is your name")))
+username = input("enter your name")
+length = len(username)
+print(username,"\n", length)
+#name generator.
+print("Welcome to the Brand name Generator? ")
+City_name = input("what is the name of the city you grew up in")
+pet_name = input("what is your pet's name? ")
+print("your brand name could be " + City_name + "" + pet_name)
